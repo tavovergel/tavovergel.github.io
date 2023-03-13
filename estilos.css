@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Bungee';
+  src: url('D:\Gustavo vergel Arellano\workspace TAVO\FONTS-GOOGLE\Bungee-Regular.ttf');
+}
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap');
+
+h{
+  font-family: 'Bungee', sans-serif;
+}
+
+p{
+  font-family: 'Merriweather', serif;
+}
+
+/* EFECTO AL HEADER PARA QUE SE VEA FONDO NEGRO Y HORIZONTAL*/
+
+#navprincipal{
+  padding: 40px;
+  align-items: center;
+  
+  
+}
+#navprincipal a{
+  padding-right: 25px;
+}
+
+#nomb{
+  text-align: center;
+}
+
+
+
+.portafolio {
+    background-image: url('D:\Gustavo vergel Arellano\OIP.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Climate Crisis';
+  }
+  
+  .portafolio h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #000;
+  }
+  .portafolio h3{
+    color: rgb(255, 255, 255);
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px #000;
+
+  }
+  
+  .portafolio p {
+    color: #fff;
+    font-size: 2rem;
+    text-shadow: 2px 2px #000;
+    
+  }
+  
+  /* Animación del fondo */
+  .portafolio {
+    animation-name: cambiaFondo;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes cambiaFondo {
+    0% {
+    background-color: #1F788E;
+    }
+    25% {
+      background-color: #262524;
+    }
+    50% {
+      background-color: #625862;
+    }
+    75% {
+      background-color: #8d8e90;
+    }
+    100% {
+    background-color: #1F788E;
+
+    }
+  }
+  
+  /* Efecto de hover */
+  .portafolio:hover {
+    box-shadow: 0px 0px 10px #fff;
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+  }
+
+  /* EFECTO para la imagen del logo*/
+
+
+
+  .section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    max-width: 150rem;
+    margin: auto;
+    padding: 100px;
+  }
+
+  .section1 h{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .divinfo{
+    width: 40rem;
+    padding: 1rem;
+    border-radius: 6px;
+    margin: 2px;
+    box-shadow: 0px 2px 10px 2px gray;
+  }
+
+  .img-thumbnail {
+    width: 600px;
+    border: 2px solid; 
+  }
+
+
+  .image{
+    padding: 50px;
+    
+  }
+
+  #img1{
+    width: 300px;
+    box-shadow: 30px 40px 5px 8px grey;
+  }
+
+  #hola{
+    color: #faf9f9;
+    text-align: center;
+    background-color:rgb(22, 22, 22);
+  }
+
+  .card{
+    box-shadow: 0px 2px 3px 2px grey;
+  }
+
+  
+
+  .margenp{
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: medium;
+    line-height: 2;
+  }
+
+
+  .contenedor2{
+    margin-top: 5px;
+    width: 100%;
+    background-color: white;
+    padding: 5%; 
+  }
+
+
+  .habilidades {
+    max-width: 68.75rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+  
+  .encabezado-habilidad {
+    margin-bottom: 1rem;
+  }
+  
+  .contenedor-habilidad img {
+    padding: 20px;
+  }
+  
+  .icono {
+    width: 11.875rem;
+    height: 11.25rem;
+    padding: 40px;
+    
+  }
+
+  .icon-card{
+      background-color: #fff;
+      border-radius: 11px;
+      box-shadow: 0 3px 10px gray;
+      padding: 50px;
+      margin: 50px;
+  }
+
+
+
+  .titulos{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 0.5px 1px 0.5px rgb(152, 151, 151);
+  
+  }
+
+  .row1{
+    padding:100px;
+  }
+
+  .form{
+    padding: 10px;
+    width: 400px;
+    height: 600;
+    background-color:rgb(235, 235, 235);
+    box-shadow: 1px 20px 50px -10px rgb(0, 0, 0);
+    
+  }
+  .form input{
+    padding: 20px;
+    width: 100%;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    border-bottom: 2px solid rgb(80, 80, 80);
+    font-family: "Monserrat",sans-serif;
+  }
+  .form textarea{
+    width: 100%;
+    min-height: 50px;
+  }
+  .form h2{
+    color: rgb(6, 5, 5);
+  }
+
