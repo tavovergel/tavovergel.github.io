@@ -17,9 +17,7 @@ p{
 
 #navprincipal{
   padding: 40px;
-  align-items: center;
-  
-  
+  align-items: center; 
 }
 #navprincipal a{
   padding-right: 25px;
@@ -28,6 +26,7 @@ p{
 #nomb{
   text-align: center;
 }
+
 
 
 
@@ -102,17 +101,12 @@ p{
 
 
 
-  .section1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    max-width: 150rem;
-    margin: auto;
+  #sobre{
     padding: 100px;
+     
   }
 
-  .section1 h{
+  #sobre h{
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
@@ -144,6 +138,7 @@ p{
     color: #faf9f9;
     text-align: center;
     background-color:rgb(22, 22, 22);
+    padding: 20px;
   }
 
   .card{
@@ -202,6 +197,7 @@ p{
 
   .titulos{
     padding: 20px;
+    margin: 40px;
     text-align: center;
     box-shadow: 0px 0.5px 1px 0.5px rgb(152, 151, 151);
   
@@ -209,6 +205,10 @@ p{
 
   .row1{
     padding:100px;
+  }
+
+  #iconos a{
+    padding-right: 50px;
   }
 
   .form{
@@ -236,4 +236,13 @@ p{
   .form h2{
     color: rgb(6, 5, 5);
   }
+
+  #contacto{
+    padding-bottom: 50px;
+  }
+  footer{
+    padding-top: 40px;    
+    box-shadow:1px 20px 50px -10px rgb(0, 0, 0); 
+  }
+
 
